@@ -1,0 +1,14 @@
+**/target/
+**/.classpath
+**/.project
+**/.settings/
+.idea/
+.vscode/
+.env
+application-local.properties
+# Hide Spring Boot configuration files
+**/src/main/resources/application.properties
+
+# Hide local secrets
+.env
+**/application-local.properties
